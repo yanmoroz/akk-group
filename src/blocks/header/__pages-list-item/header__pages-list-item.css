@@ -1,0 +1,7 @@
+.header__pages-list-item {
+  margin-left: 96px;
+}
+
+.header__pages-list-item:first-child {
+  margin-left: 0;
+}
