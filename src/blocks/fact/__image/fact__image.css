@@ -1,0 +1,21 @@
+.fact__image {
+  margin: 0 0 36px 0;
+  height: 94px;
+  width: 94px;
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .fact__image {
+    margin: 0 0 18px 0;
+    height: 64px;
+    width: 64px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .fact__image {
+    margin: 0 0 16px 0;
+    height: 48px;
+    width: 48px;
+  }
+}

@@ -1,0 +1,12 @@
+.fact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #243247;
+}
+
+@media screen and (max-width: 519px) {
+  .fact {
+    padding: 32px 0;
+  }
+}

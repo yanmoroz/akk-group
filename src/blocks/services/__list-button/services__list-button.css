@@ -1,0 +1,10 @@
+.services__list-button {
+  margin-bottom: 76px;
+}
+
+@media screen and (max-width: 519px) {
+  .services__list-button {
+    margin-top: 35px;
+    margin-bottom: 45px;
+  }
+}

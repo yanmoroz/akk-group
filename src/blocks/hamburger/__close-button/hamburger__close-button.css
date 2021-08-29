@@ -1,0 +1,13 @@
+.hamburger__close-button {
+  background-image: url('../../../images/close-icon.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border: none;
+  align-self: flex-end;
+  margin: 19px 29px 46px 0;
+}

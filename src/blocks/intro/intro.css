@@ -8,3 +8,15 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .intro {
+    min-height: 205px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .intro {
+    min-height: 205px;
+  }
+}

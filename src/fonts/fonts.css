@@ -62,3 +62,9 @@
   font-weight: 600;
   font-style: italic;
 }
+
+@font-face {
+  src: url(./Roboto/Roboto-Light.ttf) format('truetype');
+  font-family: 'Roboto';
+  font-weight: 300;
+}

@@ -1,0 +1,9 @@
+.hamburger__link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}

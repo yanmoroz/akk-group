@@ -5,12 +5,14 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
-    main: './src/pages/index.js'
+    index: './src/pages/index.js',
+    about: './src/pages/about.js'
+  },
+  stats: {
+    children: true,
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js',
-    publicPath: '',
+    filename: "[name].js" 
   },
   mode: 'development',
   devServer: {
@@ -21,11 +23,6 @@ module.exports = {
   },
   module: {
     rules: [
-      // {
-      //   test: /\.js$/,
-      //   use: 'babel-loader',
-      //   exclude: '/node_modules/'
-      // },
       {
         test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
         type: 'asset/resource',
@@ -45,7 +42,14 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/pages/index.html'
+      template: './src/pages/index.html',
+      chunks: ['vendor', 'index'],
+      filename: 'index.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/about.html',
+      chunks: ['vendor', 'about'],
+      filename: 'about.html'
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin()

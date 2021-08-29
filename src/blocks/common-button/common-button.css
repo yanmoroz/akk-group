@@ -1,0 +1,12 @@
+.common-button {
+  background-color: #243247;
+  border: none;
+  padding: 10px 50px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-radius: 4px;
+  min-height: 44px;
+}

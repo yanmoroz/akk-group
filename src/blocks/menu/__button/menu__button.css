@@ -1,0 +1,12 @@
+.menu__button {
+  padding: 10px 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .menu__button {
+    padding: 4px 0;
+    font-size: 8px;
+    min-height: 34px;
+  }
+}

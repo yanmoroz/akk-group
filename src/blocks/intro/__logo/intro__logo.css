@@ -1,5 +1,21 @@
 .intro__logo {
   background-image: url('../../../images/akk-logo-big.png');
+  background-size: cover;
+  object-fit: fill;
   width: 562px;
   height: 165px;
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .intro__logo {
+    width: 186px;
+    height: 51px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .intro__logo {
+    width: 186px;
+    height: 51px;
+  }
 }

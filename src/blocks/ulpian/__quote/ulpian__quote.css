@@ -1,0 +1,52 @@
+.ulpian__quote {
+  display: flex;
+  flex-direction: column;
+  max-width: 410px;
+  padding: 313px 0 0 98px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1319px) {
+  .ulpian__quote {
+    padding: 313px 0 0 78px;
+  }
+}
+
+@media screen and (min-width: 1180px) and (max-width: 1279px) {
+  .ulpian__quote {
+    padding: 283px 0 0 58px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1179px) {
+  .ulpian__quote {
+    padding: 223px 0 0 48px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+  .ulpian__quote {
+    padding: 223px 0 0 48px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px) {
+  .ulpian__quote {
+    padding: 183px 0 0 48px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .ulpian__quote {
+    padding: 163px 0 0 28px;
+    max-width: 165px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .ulpian__quote {
+    padding: 122px 0 0 28px;
+    max-width: 110px;
+  }
+}

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>AKK-Group</title>
+  <title>AKK Group</title>
 </head>
 
 <body class="page">
@@ -14,49 +14,217 @@
       <a href="#" class="header__logo link">
         <img src="<%=require('./../images/akk-logo-small.png')%>" alt="Логотип">
       </a>
-      <ul class="header__pages-list">
-        <li class="header__pages-list-item">
-          <a href="#" class="header__page-link link">Главная</a>
-        </li>
-        <li class="header__pages-list-item">
-          <a href="#" class="header__page-link link">О компании</a>
-        </li>
-        <li class="header__pages-list-item">
-          <a href="#" class="header__page-link link">Услуги/цены</a>
-        </li>
-        <li class="header__pages-list-item">
-          <a href="#" class="header__page-link link">Отзывы</a>
-        </li>
-        <li class="header__pages-list-item">
-          <a href="#" class="header__page-link link">Контакты</a>
-        </li>
-      </ul>
+      <div class="header__menu">
+        <ul class="header__pages-list">
+          <li class="header__pages-list-item">
+            <a href="index.html" class="header__page-link link">Главная</a>
+          </li>
+          <li class="header__pages-list-item">
+            <a href="about.html" class="header__page-link link">О компании</a>
+          </li>
+          <li class="header__pages-list-item">
+            <a href="services.html" class="header__page-link link">Услуги/цены</a>
+          </li>
+          <li class="header__pages-list-item">
+            <a href="reviews.html" class="header__page-link link">Отзывы</a>
+          </li>
+          <li class="header__pages-list-item">
+            <a href="contacts.html" class="header__page-link link">Контакты</a>
+          </li>
+        </ul>
+        <button class="header__hamburger-button link"></button>
+      </div>
     </header>
     <main class="main">
-      <section>
-        <div class="intro">
-          <div class="intro__logo">
-    
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="ulpian-quote">
-          <div>
+      <section class="intro">
+        <div class="intro__logo">
 
-          </div>
-          <div class="ulpian-quote_image">
-    
-          </div>
         </div>
       </section>
-      <section>
-        <div class="big-section">
-    
+
+      <section class="ulpian">
+        <div class="ulpian__quote">
+          <p class="ulpian__quote-text">Справедливость есть постоянное и вечное стремление воздавать каждому своё.</p>
+          <div class="ulpian__separator"></div>
+          <p class="ulpian__quote-author">Ульпиан</p>
         </div>
       </section>
+
+      <section class="facts">
+        <ul class="facts__list">
+          <li class="fact">
+            <img src="<%=require('./../images/facts/fact-1-icon.png')%>" alt="Иконка первого факта" class="fact__image">
+            <p class="fact__text">Более <span class="fact__number">25</span></p>
+            <p class="fact__text">постоянных</p>
+            <p class="fact__text">клиентов</p>
+          </li>
+          <li class="fact">
+            <img src="<%=require('./../images/facts/fact-2-icon.png')%>" alt="Иконка второго факта" class="fact__image">
+            <p class="fact__text">Широкий</p>
+            <p class="fact__text">спектр</p>
+            <p class="fact__text">услуг</p>
+          </li>
+          <li class="fact">
+            <img src="<%=require('./../images/facts/fact-3-icon.png')%>" alt="Иконка третьего факта"
+              class="fact__image">
+            <p class="fact__text">Более</p>
+            <p class="fact__number">900</p>
+            <p class="fact__text">дел</p>
+          </li>
+          <li class="fact">
+            <img src="<%=require('./../images/facts/fact-4-icon.png')%>" alt="Иконка четвертого факта"
+              class="fact__image">
+            <p class="fact__text">Работа на всей</p>
+            <p class="fact__text">территории</p>
+            <p class="fact__text">России</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="services">
+        <p class="services__title">Наши услуги:</p>
+        <ul class="services__grid">
+          <li class="services__grid-item">
+            <ul class="services__list">
+              <li class="services__list-item">
+                <span class="services__list-title">Физическим лицам</span>
+                <p class="services__list-row">Представительство в суде</p>
+                <p class="services__list-row">Семейные споры</p>
+                <p class="services__list-row">Защита прав потребителей</p>
+                <p class="services__list-row">Взыскание задолженности</p>
+                <p class="services__list-row">Банкротство</p>
+                <p class="services__list-row">Споры с застройщиком</p>
+                <button class="services__list-button common-button link">Подробнее</button>
+              </li>
+            </ul>
+          </li>
+          <li class="services__grid-item">
+            <ul class="services__list">
+              <li class="services__list-item">
+                <span class="services__list-title">Юридическим лицам</span>
+                <p class="services__list-row">Представительство в суде и государственных органах</p>
+                <p class="services__list-row">Сопровождение бизнеса</p>
+                <p class="services__list-row">Банкротство</p>
+                <p class="services__list-row">Взыскание задолженности</p>
+                <p class="services__list-row">Решение трудовых споров</p>
+                <p class="services__list-row">Налоговые споры</p>
+                <button class="services__list-button common-button link">Подробнее</button>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section class="advantages">
+        <div class="advantages__title-container">
+          <p class="advantages__title-line">Почему выбирают</p>
+          <p class="advantages__title-line">АКК Group?</p>
+        </div>
+        <ul class="advantages__list">
+          <li class="advantage">
+            <img src="<%=require('./../images/advantages/advantage-1-icon.png')%>" alt="Иконка первого преимущества"
+              class="advantage__image">
+            <div class="advantage__text-container">
+              <p class="advantage__text">Работа</p>
+              <p class="advantage__text">высококвалифицированных</p>
+              <p class="advantage__text">юристов с большим опытом</p>
+              <p class="advantage__text">практической работы</p>
+            </div>
+          </li>
+          <li class="advantage">
+            <img src="<%=require('./../images/advantages/advantage-2-icon.png')%>" alt="Иконка второго преимущества"
+              class="advantage__image">
+            <div class="advantage__text-container">
+              <p class="advantage__text">Способность</p>
+              <p class="advantage__text">адаптироваться к любым</p>
+              <p class="advantage__text">нестандартным ситуациям</p>
+            </div>
+          </li>
+          <li class="advantage">
+            <img src="<%=require('./../images/advantages/advantage-3-icon.png')%>" alt="Иконка третьего преимущества"
+              class="advantage__image">
+            <div class="advantage__text-container">
+              <p class="advantage__text">Честные</p>
+              <p class="advantage__text">и адекватные цены</p>
+            </div>
+          </li>
+          <li class="advantage">
+            <img src="<%=require('./../images/advantages/advantage-4-icon.png')%>" alt="Иконка четвертого преимущества"
+              class="advantage__image">
+            <div class="advantage__text-container">
+              <p class="advantage__text">Нацеленность только</p>
+              <p class="advantage__text">на положительный результат</p>
+              <p class="advantage__text">в рамках действующего</p>
+              <p class="advantage__text">законодательства</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="menu">
+        <p class="menu__title">Меню:</p>
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <p class="menu__list-item-title">О компании</p>
+            <p class="menu__list-item-text">В этом разделе Вы найдете информацию о компании, её деятельности и партнерах</p>
+          </li>
+          <li class="menu__list-item">
+            <p class="menu__list-item-title">Услуги</p>
+            <p class="menu__list-item-text">В этом разделе Вы найдете информацию о видах оказываемых услуг и их стоимости</p>
+          </li>
+          <li class="menu__list-item">
+            <p class="menu__list-item-title">Отзывы</p>
+            <p class="menu__list-item-text">В этом разделе Вы найдёте информацию о проблеме, клиенте и ссылку на итоговое решение суда</p>
+          </li>
+          <li class="menu__list-item">
+            <p class="menu__list-item-title">Контакты</p>
+            <p class="menu__list-item-text">+7 495 773 06 79</p>
+          </li>
+        </ul>
+        <ul class="menu__buttons-list">
+          <li class="menu__buttons-list-item">
+            <button class="common-button menu__button link">Подробнее</button>
+          </li>
+          <li class="menu__buttons-list-item">
+            <button class="common-button menu__button link">Подробнее</button>
+          </li>
+          <li class="menu__buttons-list-item">
+            <button class="common-button menu__button link">Подробнее</button>
+          </li>
+          <li class="menu__buttons-list-item">
+            <button class="common-button menu__button link">Подробнее</button>
+          </li>
+        </ul>
+      </section>
+
     </main>
+    <footer class="footer">
+      <p class="footer__text">2021 / Москва</p>
+      <p class="footer__text">Политика конфиденциальности</p>
+    </footer>
   </div>
+
+  <div class="hamburger">
+    <button class="hamburger__close-button link"></button>
+    <ul class="hamburger__links-list">
+      <li class="hamburger__links-list-item">
+        <a href="index.html" class="hamburger__link link">Главная</a>
+      </li>
+      <li class="hamburger__links-list-item">
+        <a href="about.html" class="hamburger__link link">О компании</a>
+      </li>
+      <li class="hamburger__links-list-item">
+        <a href="services.html" class="hamburger__link link">Услуги</a>
+      </li>
+      <li class="hamburger__links-list-item">
+        <a href="reviews.html" class="hamburger__link link">Отзывы</a>
+      </li>
+      <li class="hamburger__links-list-item">
+        <a href="contacts.html" class="hamburger__link link">Контакты</a>
+      </li>
+    </ul>
+  </div>
+
 </body>
 
 </html>

@@ -1,0 +1,31 @@
+.fact__text {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2.5px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .fact__text {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .fact__text {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .fact__text {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}

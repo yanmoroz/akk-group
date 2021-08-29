@@ -1,0 +1,30 @@
+.fact__number {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  margin: 0;
+  letter-spacing: 2.5px;
+  line-height: 40px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .fact__number {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .fact__number {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .fact__number {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}

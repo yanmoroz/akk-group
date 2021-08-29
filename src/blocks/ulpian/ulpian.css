@@ -1,0 +1,56 @@
+.ulpian {
+  background-image: url('../../images/image_1.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 939px;
+  height: 1038px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1319px) {
+  .ulpian {
+    background-size: 839px;
+    height: 938px;
+  }
+}
+
+@media screen and (min-width: 1180px) and (max-width: 1279px) {
+  .ulpian {
+    background-size: 839px;
+    height: 938px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1179px) {
+  .ulpian {
+    background-size: 639px;
+    height: 738px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+  .ulpian {
+    background-size: 639px;
+    height: 738px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px) {
+  .ulpian {
+    background-size: 439px;
+    height: 538px;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .ulpian {
+    background-size: 339px;
+    height: 438px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .ulpian {
+    background-size: 272px;
+    height: 338px;
+  }
+}

@@ -1,0 +1,16 @@
+.facts__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0;
+  padding: 0;
+  column-gap: 12px;
+}
+
+@media screen and (max-width: 519px) {
+  .facts__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    background-color: white;
+  }
+}
