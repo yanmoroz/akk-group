@@ -1,0 +1,23 @@
+.contacts__title {
+  margin: 77px 0 77px 98px;
+  grid-area: title;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 73px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .contacts__title {
+    margin: 48px 0 48px 40px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .contacts__title {
+    margin: 34px 0 34px 29px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

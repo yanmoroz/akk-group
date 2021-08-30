@@ -1,0 +1,74 @@
+@import url('../../vendor/normalize.css');
+@import url('../../fonts/fonts.css');
+
+@import url('../../blocks/page/page.css');
+@import url('../../blocks/container/container.css');
+@import url('../../blocks/container/_hidden/container_hidden.css');
+
+@import url('../../blocks/link/link.css');
+@import url('../../blocks/common-button/common-button.css');
+
+@import url('../../blocks/header/header.css');
+@import url('../../blocks/header/__menu/header__menu.css');
+@import url('../../blocks/header/__logo/header__logo.css');
+@import url('../../blocks/header/_active-background/header_active-background.css');
+@import url('../../blocks/header/__pages-list/header__pages-list.css');
+@import url('../../blocks/header/__pages-list-item/header__pages-list-item.css');
+@import url('../../blocks/header/__page-link/header__page-link.css');
+@import url('../../blocks/header/__logo/_visible/header__logo_visible.css');
+@import url('../../blocks/header/__hamburger-button/header__hamburger-button.css');
+@import url('../../blocks/header/__hamburger-button/_visible/header__hamburger-button_visible.css');
+@import url('../../blocks/header/_hidden/header_hidden.css');
+
+@import url('../../blocks/intro/intro.css');
+@import url('../../blocks/intro/__logo/intro__logo.css');
+
+@import url('../../blocks/ulpian/ulpian.css');
+@import url('../../blocks/ulpian/__quote/ulpian__quote.css');
+@import url('../../blocks/ulpian/__quote-text/ulpian__quote-text.css');
+@import url('../../blocks/ulpian/__separator/ulpian__separator.css');
+@import url('../../blocks/ulpian/__quote-author/ulpian__quote-author.css');
+
+@import url('../../blocks/facts/facts.css');
+@import url('../../blocks/facts/__list/facts__list.css');
+@import url('../../blocks/fact/fact.css');
+@import url('../../blocks/fact/__image/fact__image.css');
+@import url('../../blocks/fact/__text/fact__text.css');
+@import url('../../blocks/fact/__number/fact__number.css');
+
+@import url('../../blocks/services-block/services.css');
+@import url('../../blocks/services-block/__title/services__title.css');
+@import url('../../blocks/services-block/__list-title/services__list-title.css');
+@import url('../../blocks/services-block/__list-row/services__list-row.css');
+@import url('../../blocks/services-block/__grid/services__grid.css');
+@import url('../../blocks/services-block/__list/services__list.css');
+@import url('../../blocks/services-block/__grid-item/services__grid-item.css');
+@import url('../../blocks/services-block/__list-item/services__list-item.css');
+@import url('../../blocks/services-block/__list-button/services__list-button.css');
+
+@import url('../../blocks/advantages/advantages.css');
+@import url('../../blocks/advantages/__title-container/advantages__title-container.css');
+@import url('../../blocks/advantages/__title-line/advantages__title-line.css');
+@import url('../../blocks/advantages/__list/advantages__list.css');
+@import url('../../blocks/advantage/advantage.css');
+@import url('../../blocks/advantage/__image/advantage__image.css');
+@import url('../../blocks/advantage/__text/advantage__text.css');
+
+@import url('../../blocks/menu/menu.css');
+@import url('../../blocks/menu/__title/menu__title.css');
+@import url('../../blocks/menu/__list/menu__list.css');
+@import url('../../blocks/menu/__list-item-title/menu__list-item-title.css');
+@import url('../../blocks/menu/__list-item-text/menu__list-item-text.css');
+@import url('../../blocks/menu/__buttons-list/menu__buttons-list.css');
+@import url('../../blocks/menu/__button/menu__button.css');
+
+@import url('../../blocks/footer/footer.css');
+@import url('../../blocks/footer/__text/footer__text.css');
+
+@import url('../../blocks/hamburger/hamburger.css');
+@import url('../../blocks/hamburger/__logo/hamburger__logo.css');
+@import url('../../blocks/hamburger/__links-list/hamburger__links-list.css');
+@import url('../../blocks/hamburger/__link/hamburger__link.css');
+@import url('../../blocks/hamburger/__links-list-item/hamburger__links-list-item.css');
+@import url('../../blocks/hamburger/__close-button/hamburger__close-button.css');
+@import url('../../blocks/hamburger/_visible/hamburger_visible.css');

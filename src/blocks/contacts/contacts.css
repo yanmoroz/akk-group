@@ -1,0 +1,23 @@
+.contacts {
+  display: grid;
+  grid-template-areas: 
+    "image"
+    "title"
+    "list";
+    min-height: calc(100vh - 110px);
+}
+
+@media screen and (max-width: 519px) {
+  .contacts {
+    grid-template-areas: 
+    "title"
+    "image"
+    "list";
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .contacts {
+    min-height: calc(100vh - 142px);
+  }
+}

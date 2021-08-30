@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>AKK Group</title>
+  <title>Главная</title>
 </head>
 
 <body class="page">
   <div class="container">
     <header class="header">
       <a href="#" class="header__logo link">
-        <img src="<%=require('./../images/akk-logo-small.png')%>" alt="Логотип">
+        <img src="<%=require('./../../images/akk-logo-small.svg')%>" alt="Логотип">
       </a>
       <div class="header__menu">
         <ul class="header__pages-list">
@@ -53,26 +53,26 @@
       <section class="facts">
         <ul class="facts__list">
           <li class="fact">
-            <img src="<%=require('./../images/facts/fact-1-icon.png')%>" alt="Иконка первого факта" class="fact__image">
+            <img src="<%=require('./../../images/facts/fact-1-icon.png')%>" alt="Иконка первого факта" class="fact__image">
             <p class="fact__text">Более <span class="fact__number">25</span></p>
             <p class="fact__text">постоянных</p>
             <p class="fact__text">клиентов</p>
           </li>
           <li class="fact">
-            <img src="<%=require('./../images/facts/fact-2-icon.png')%>" alt="Иконка второго факта" class="fact__image">
+            <img src="<%=require('./../../images/facts/fact-2-icon.png')%>" alt="Иконка второго факта" class="fact__image">
             <p class="fact__text">Широкий</p>
             <p class="fact__text">спектр</p>
             <p class="fact__text">услуг</p>
           </li>
           <li class="fact">
-            <img src="<%=require('./../images/facts/fact-3-icon.png')%>" alt="Иконка третьего факта"
+            <img src="<%=require('./../../images/facts/fact-3-icon.png')%>" alt="Иконка третьего факта"
               class="fact__image">
             <p class="fact__text">Более</p>
             <p class="fact__number">900</p>
             <p class="fact__text">дел</p>
           </li>
           <li class="fact">
-            <img src="<%=require('./../images/facts/fact-4-icon.png')%>" alt="Иконка четвертого факта"
+            <img src="<%=require('./../../images/facts/fact-4-icon.png')%>" alt="Иконка четвертого факта"
               class="fact__image">
             <p class="fact__text">Работа на всей</p>
             <p class="fact__text">территории</p>
@@ -122,7 +122,7 @@
         </div>
         <ul class="advantages__list">
           <li class="advantage">
-            <img src="<%=require('./../images/advantages/advantage-1-icon.png')%>" alt="Иконка первого преимущества"
+            <img src="<%=require('./../../images/advantages/advantage-1-icon.png')%>" alt="Иконка первого преимущества"
               class="advantage__image">
             <div class="advantage__text-container">
               <p class="advantage__text">Работа</p>
@@ -132,7 +132,7 @@
             </div>
           </li>
           <li class="advantage">
-            <img src="<%=require('./../images/advantages/advantage-2-icon.png')%>" alt="Иконка второго преимущества"
+            <img src="<%=require('./../../images/advantages/advantage-2-icon.png')%>" alt="Иконка второго преимущества"
               class="advantage__image">
             <div class="advantage__text-container">
               <p class="advantage__text">Способность</p>
@@ -141,7 +141,7 @@
             </div>
           </li>
           <li class="advantage">
-            <img src="<%=require('./../images/advantages/advantage-3-icon.png')%>" alt="Иконка третьего преимущества"
+            <img src="<%=require('./../../images/advantages/advantage-3-icon.png')%>" alt="Иконка третьего преимущества"
               class="advantage__image">
             <div class="advantage__text-container">
               <p class="advantage__text">Честные</p>
@@ -149,7 +149,7 @@
             </div>
           </li>
           <li class="advantage">
-            <img src="<%=require('./../images/advantages/advantage-4-icon.png')%>" alt="Иконка четвертого преимущества"
+            <img src="<%=require('./../../images/advantages/advantage-4-icon.png')%>" alt="Иконка четвертого преимущества"
               class="advantage__image">
             <div class="advantage__text-container">
               <p class="advantage__text">Нацеленность только</p>
@@ -166,15 +166,18 @@
         <ul class="menu__list">
           <li class="menu__list-item">
             <p class="menu__list-item-title">О компании</p>
-            <p class="menu__list-item-text">В этом разделе Вы найдете информацию о компании, её деятельности и партнерах</p>
+            <p class="menu__list-item-text">В этом разделе Вы найдете информацию о компании, её деятельности и партнерах
+            </p>
           </li>
           <li class="menu__list-item">
             <p class="menu__list-item-title">Услуги</p>
-            <p class="menu__list-item-text">В этом разделе Вы найдете информацию о видах оказываемых услуг и их стоимости</p>
+            <p class="menu__list-item-text">В этом разделе Вы найдете информацию о видах оказываемых услуг и их
+              стоимости</p>
           </li>
           <li class="menu__list-item">
             <p class="menu__list-item-title">Отзывы</p>
-            <p class="menu__list-item-text">В этом разделе Вы найдёте информацию о проблеме, клиенте и ссылку на итоговое решение суда</p>
+            <p class="menu__list-item-text">В этом разделе Вы найдёте информацию о проблеме, клиенте и ссылку на
+              итоговое решение суда</p>
           </li>
           <li class="menu__list-item">
             <p class="menu__list-item-title">Контакты</p>
@@ -205,6 +208,9 @@
   </div>
 
   <div class="hamburger">
+    <a href="#" class="hamburger__logo link">
+      <img src="<%=require('./../../images/akk-logo-small.svg')%>" alt="Логотип">
+    </a>
     <button class="hamburger__close-button link"></button>
     <ul class="hamburger__links-list">
       <li class="hamburger__links-list-item">

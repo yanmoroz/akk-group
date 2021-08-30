@@ -1,7 +1,6 @@
 .intro__logo {
-  background-image: url('../../../images/akk-logo-big.png');
-  background-size: cover;
-  object-fit: fill;
+  background-image: url('../../../images/akk-logo-big.svg');
+  background-size: contain;
   width: 562px;
   height: 165px;
 }

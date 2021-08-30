@@ -1,0 +1,8 @@
+.hamburger__logo {
+  min-width: 56px;
+  min-height: 23px;
+  object-fit: cover;
+  position: absolute;
+  top: 35px;
+  left: 27px;
+}

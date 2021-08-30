@@ -1,0 +1,10 @@
+.contacts__list-item-text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #333333;
+  grid-column: 2;
+  max-width: 300px;
+}

@@ -1,9 +1,9 @@
-.services {
+.reviews {
   min-height: calc(100vh - 110px); 
 }
 
 @media screen and (max-width: 519px) {
-  .services {
+  .reviews {
     min-height: calc(100vh - 142px);
   }
 }

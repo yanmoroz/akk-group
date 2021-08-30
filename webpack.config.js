@@ -3,11 +3,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
+const pages = ["index", "contacts", "reviews", "services", "about"];
+
 module.exports = {
-  entry: {
-    index: './src/pages/index.js',
-    about: './src/pages/about.js'
-  },
+  entry: pages.reduce((config, page) => {
+    config[page] = `./src/pages/${page}/${page}.js`;
+    return config;
+  }, {}),
   stats: {
     children: true,
   },
@@ -19,7 +21,7 @@ module.exports = {
     contentBase: path.resolve(__dirname, './dist'),
     open: true,
     compress: true,
-    port: 8080
+    port: 8081
   },
   module: {
     rules: [
@@ -40,18 +42,17 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/pages/index.html',
-      chunks: ['vendor', 'index'],
-      filename: 'index.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/pages/about.html',
-      chunks: ['vendor', 'about'],
-      filename: 'about.html'
-    }),
+  plugins: [].concat(
+    pages.map(
+      (page) =>
+        new HtmlWebpackPlugin({
+          inject: true,
+          template: `./src/pages/${page}/${page}.html`,
+          filename: `${page}.html`,
+          chunks: [page],
+        })
+    ),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin()
-  ]
-} 
+  ),
+}

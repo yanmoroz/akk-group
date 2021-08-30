@@ -1,0 +1,7 @@
+.contacts__list-item {
+  margin: 0 0 31px 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 29px 1fr;
+  column-gap: 23px;
+}
