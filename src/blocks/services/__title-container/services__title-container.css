@@ -1,0 +1,21 @@
+.services__title-container {
+  margin: 78px 0 81px 98px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .services__title-container {
+    margin: 60px 0 60px 64px;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .services__title-container {
+    margin: 60px 0 60px 40px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .services__title-container {
+    margin: 34px 0 31px 29px;
+  }
+}

@@ -1,0 +1,23 @@
+.services__group-title {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 44px;
+  color: #333333;
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .services__group-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .services__group-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

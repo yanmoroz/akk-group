@@ -1,9 +1,21 @@
 .services {
-  min-height: calc(100vh - 110px); 
+  /* display: grid;
+  grid-template-areas: 
+    "image"
+    "title"
+    "list"
+    "pact"; */
+  min-height: calc(100vh - 110px);
 }
 
 @media screen and (max-width: 519px) {
   .services {
+    /* grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+      "title"
+      "image"
+      "list"
+      "pact"; */
     min-height: calc(100vh - 142px);
   }
 }

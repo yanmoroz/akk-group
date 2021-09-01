@@ -1,0 +1,9 @@
+.services__group-title-container {
+  margin: 0 0 44px 12px;
+}
+
+@media screen and (max-width: 519px) {
+  .services__group-title-container {
+    margin: 0 0 26px 0;
+  }
+}

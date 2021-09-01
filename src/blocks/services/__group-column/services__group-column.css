@@ -1,0 +1,7 @@
+.services__group-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 400;
+}
+

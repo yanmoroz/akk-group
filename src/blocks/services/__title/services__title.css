@@ -1,0 +1,17 @@
+.services__title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 73px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #243247;
+  grid-area: title;
+}
+
+@media screen and (max-width: 519px) {
+  .services__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

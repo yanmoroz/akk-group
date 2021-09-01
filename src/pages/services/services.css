@@ -21,6 +21,23 @@
 @import url('../../blocks/header/_hidden/header_hidden.css');
 
 @import url('../../blocks/services/services.css');
+@import url('../../blocks/services/__title/services__title.css');
+@import url('../../blocks/services/__list/services__list.css');
+@import url('../../blocks/services/__image/services__image.css');
+@import url('../../blocks/services/__group/services__group.css');
+@import url('../../blocks/services/__group-title/services__group-title.css');
+@import url('../../blocks/services/__group-icon/services__group-icon.css');
+@import url('../../blocks/services/__group-columns/services__group-columns.css');
+@import url('../../blocks/services/__group-column/services__group-column.css');
+@import url('../../blocks/services/__group-column-paragraph/services__group-column-paragraph.css');
+@import url('../../blocks/services/__title-container/services__title-container.css');
+@import url('../../blocks/services/__group-title-container/services__group-title-container.css');
+@import url('../../blocks/services/__pact/services__pact.css');
+@import url('../../blocks/services/__button/services__button.css');
+@import url('../../blocks/services/__pact-content/services__pact-content.css');
+@import url('../../blocks/services/__pact-text/services__pact-text.css');
+@import url('../../blocks/services/__pact-download-button/services__pact-download-button.css');
+@import url('../../blocks/services/__group-column/_height/services__group-column_height.css');
 
 @import url('../../blocks/hamburger/hamburger.css');
 @import url('../../blocks/hamburger/__logo/hamburger__logo.css');

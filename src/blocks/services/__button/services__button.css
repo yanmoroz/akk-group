@@ -1,0 +1,11 @@
+.services__button {
+  padding: 10px 27px;
+  margin: 32px 0 0 0;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 519px) {
+  .services__button {
+    align-self: center;
+  }
+}

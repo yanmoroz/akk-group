@@ -1,0 +1,27 @@
+.services__group-column-paragraph {
+  margin: 0 0 30px 0;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  color: #333333;
+}
+
+.services__group-column-paragraph:last-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .services__group-column-paragraph {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .services__group-column-paragraph {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 24px 0;
+  }
+}
