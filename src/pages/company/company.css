@@ -20,7 +20,21 @@
 @import url('../../blocks/header/__hamburger-button/_visible/header__hamburger-button_visible.css');
 @import url('../../blocks/header/_hidden/header_hidden.css');
 
-@import url('../../blocks/about/about.css');
+@import url('../../blocks/company/company.css');
+@import url('../../blocks/company/__intro/company__intro.css');
+@import url('../../blocks/company/__intro-title/company__intro-title.css');
+@import url('../../blocks/company/__intro-text/company__intro-text.css');
+@import url('../../blocks/company/__intro-image/company__intro-image.css');
+@import url('../../blocks/company/__info-banner/company__info-banner.css');
+@import url('../../blocks/company/__info-banner-text/company__info-banner-text.css');
+@import url('../../blocks/company/__employees/company__employees.css');
+@import url('../../blocks/company/__employees-title/company__employees-title.css');
+@import url('../../blocks/company/__employee/company__employee.css');
+@import url('../../blocks/company/__employee-portfolio/company__employee-portfolio.css');
+@import url('../../blocks/company/__employee-portfolio-block/company__employee-portfolio-block.css');
+@import url('../../blocks/company/__employee-photo/company__employee-photo.css');
+@import url('../../blocks/company/__employee-fio/company__employee-fio.css');
+@import url('../../blocks/company/__employee-bio/company__employee-bio.css');
 
 @import url('../../blocks/hamburger/hamburger.css');
 @import url('../../blocks/hamburger/__logo/hamburger__logo.css');

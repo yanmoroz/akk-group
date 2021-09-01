@@ -1,4 +1,4 @@
-import './about.css';
+import './company.css';
 
 const hamburgerButton = document.querySelector('.header__hamburger-button')
 const hamburgerContainer = document.querySelector('.hamburger')

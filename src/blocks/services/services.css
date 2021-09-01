@@ -1,21 +1,20 @@
 .services {
-  /* display: grid;
+  display: grid;
   grid-template-areas: 
     "image"
     "title"
     "list"
-    "pact"; */
+    "pact";
   min-height: calc(100vh - 110px);
 }
 
 @media screen and (max-width: 519px) {
   .services {
-    /* grid-template-rows: repeat(4, auto);
-    grid-template-areas:
+    grid-template-areas: 
       "title"
       "image"
       "list"
-      "pact"; */
+      "pact";
     min-height: calc(100vh - 142px);
   }
 }
