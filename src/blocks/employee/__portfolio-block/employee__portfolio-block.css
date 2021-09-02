@@ -1,0 +1,9 @@
+.employee__portfolio-block {
+  
+}
+
+@media screen and (max-width: 519px) {
+  .employee__portfolio-block:last-child {
+    margin-top: 12px;
+  }
+}

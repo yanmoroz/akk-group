@@ -1,0 +1,26 @@
+.employee__portfolio {
+  grid-area: portfolio;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 40px 0 0 98px;
+  gap: 0 40px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .employee__portfolio {
+    margin: 40px 0 0 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .employee__portfolio {
+    margin: 12px 29px 0;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .employee__portfolio {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+  }
+}

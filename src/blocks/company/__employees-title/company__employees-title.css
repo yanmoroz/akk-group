@@ -1,3 +1,23 @@
 .company__employees-title {
-  
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 73px;
+  letter-spacing: 2px;
+  color: #243247;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .company__employees-title {
+    font-size: 45px;
+    line-height: 63px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .company__employees-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
 }

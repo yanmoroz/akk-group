@@ -1,0 +1,26 @@
+.employee__fio {
+  margin: 40px 0 0 98px;
+  grid-area: fio;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #243247;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .employee__fio {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 40px 0 0 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .employee__fio {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 40px 27px 15px 27px;
+  }
+}

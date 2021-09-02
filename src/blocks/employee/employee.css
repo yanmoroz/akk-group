@@ -1,0 +1,50 @@
+.employee {
+  display: grid;
+  grid-auto-rows: minmax(100px, auto) minmax(100px, auto) auto;
+  grid-template-areas:
+  "fio photo"
+  "bio photo"
+  "portfolio photo";
+  margin: 0;
+  column-gap: 50px;
+}
+
+.employee:nth-of-type(3) {
+  padding: 0 118px 0 0;
+  column-gap: 20px;
+}
+
+.employee:last-child {
+  padding: 0 0 121px 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .employee:nth-of-type(3) {
+    padding: 0 33px 0 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .employee:nth-of-type(3) {
+    padding: 0 33px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .employee {
+    grid-auto-rows: auto;
+    grid-template-areas:
+      "photo"
+      "fio"
+      "bio"
+      "portfolio";
+  }
+
+  .employee:nth-of-type(3) {
+    padding: 0;
+  }
+
+  .employee:last-child {
+    padding: 0 0 24px 0;
+  }
+}

@@ -1,0 +1,38 @@
+.employee__bio {
+  margin: 12px 0 0 98px;
+  grid-area: bio;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #243247;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1399px) {
+  .employee__bio {
+    font-size: 21px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .employee__bio {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .employee__bio {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 12px 0 0 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .employee__bio {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 27px 0 27px;
+  }
+}

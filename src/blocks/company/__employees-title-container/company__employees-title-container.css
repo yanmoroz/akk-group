@@ -1,0 +1,15 @@
+.company__employees-title-container {
+  margin: 157px 0 82px 98px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .company__employees-title-container {
+    margin: 48px 0 24px 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .company__employees-title-container {
+    margin: 34px 0 34px 29px;
+  }
+}

@@ -5,3 +5,8 @@
   max-height: 400;
 }
 
+@media screen and (max-width: 519px) {
+  .services__group-column {
+    margin: 24px 0 0 0;
+  }
+}

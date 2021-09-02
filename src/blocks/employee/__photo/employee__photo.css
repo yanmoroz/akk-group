@@ -1,0 +1,33 @@
+.employee__photo {
+  grid-area: photo;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .employee__photo {
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .employee__photo {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .employee__photo {
+    justify-self: center;
+  }
+
+  .employee:nth-child(1) > .employee__photo {
+    content: url('../../../images/company/aleshkin-photo-small.png');
+  }
+
+  .employee:nth-child(3) > .employee__photo {
+    content: url('../../../images/company/kochetkov-photo-small.png');
+  }
+
+  .employee:nth-child(5) > .employee__photo {
+    content: url('../../../images/company/korshikov-photo-small.png');
+  }
+}

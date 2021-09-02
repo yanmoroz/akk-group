@@ -1,3 +1,40 @@
 .company__intro-text {
-  
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #243247;
+  margin: 0 0 24px 0;
+  grid-area: text;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .company__intro-text {
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0 0 16px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .company__intro-text {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 0 16px 0;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 767px) {
+  .company__intro-text {
+    font-size: 11px;
+    line-height: 15px;
+    margin: 0 0 16px 0;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .company__intro-text {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 16px 0;
+  }
 }

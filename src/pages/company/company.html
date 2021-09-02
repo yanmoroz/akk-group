@@ -37,7 +37,129 @@
     </header>
 
     <main class="company">
-      
+      <div class="company__intro">
+        <h1 class="company__intro-title">О компании</h1>
+        <div class="company__intro-text-container">
+          <p class="company__intro-text">АКК Group занимается предоставлением услуг в области права.</p>
+          <p class="company__intro-text">Уникальность компании в том, что она обладает всеми необходимыми инструментами
+            для предоставления грамотных, качественных и честных услуг, основанных исключительно на законе.</p>
+          <p class="company__intro-text">Юристы нашей компании обладают большим опытом в различных отраслях права,
+            строго выполняют взятые на себя обязательства. Работа высококвалифицированных юристов, результативность
+            деятельности, честные договорные цены, порядочность во взаимоотношениях с клиентами — основа доверия
+            клиентов АКК Group.</p>
+        </div>
+        <img src="<%=require('./../../images/company/company-image-1.png')%>" alt="Фото ступеней"
+          class="company__intro-image">
+      </div>
+
+      <div class="company__info-banner">
+        <p class="company__info-banner-text">Работать с командой АКК Group —</p>
+        <p class="company__info-banner-text">значит получить услугу высокого качества.</p>
+      </div>
+
+      <div class="company__employees">
+        <div class="company__employees-title-container">
+          <h2 class="company__employees-title">Наша</h2>
+          <h2 class="company__employees-title">команда:</h2>
+        </div>
+        <ul class="company__employees-list">
+          <li class="employee">
+            <p class="employee__fio">Алёшкин Дмитрий Владимирович</p>
+            <p class="employee__bio">Выпускник Негосударственного образовательного учреждения высшего профессионального
+              образования «Московский областной институт управления» 2007 – 2012 гг.</p>
+            <img src="<%=require('./../../images/company/aleshkin-photo.png')%>" alt="Фото Алёшкина Дмитрия"
+              class="employee__photo">
+            <div class="employee__portfolio">
+              <div class="employee__portfolio-block">
+                <p class="employee__portfolio-text"><span class="employee__portfolio-bold-text">Стаж работы</span> с
+                  2012 года</p>
+                <p class="employee__portfolio-text"><span class="employee__portfolio-bold-text">Направления юридической
+                    деятельности:</span> договорное право, работа с недвижимым имуществом, в том числе строительство,
+                  оспаривание действий / бездействий органов государственной власти, защита прав потребителей,
+                  юридическая помощь при ДТП,
+                  банкротство, исполнительное производство.</p>
+              </div>
+              <div class="employee__portfolio-block">
+                <p class="employee__portfolio-text"><span class="employee__portfolio-bold-text">Выигранных дел:</span>
+                </p>
+                <p class="employee__portfolio-text">Экономические споры > <span class="employee__portfolio-bold-text">80
+                    дел</span></p>
+                <p class="employee__portfolio-text">Гражданские споры > <span class="employee__portfolio-bold-text">70
+                    дел</span></p>
+                <p class="employee__portfolio-text">Административные дела > <span
+                    class="employee__portfolio-bold-text">20 дел</span></p>
+                <p class="employee__portfolio-text">Досудебное окончание дела в пользу клиента > <span
+                    class="employee__portfolio-bold-text">50 дел</span></p>
+                <p class="employee__portfolio-text">Окончание спора мировым соглашением > <span
+                    class="employee__portfolio-bold-text">15 дел</span></p>
+              </div>
+            </div>
+          </li>
+          <li class="employees__separator"></li>
+          <li class="employee">
+            <p class="employee__fio">Кочетков Андрей Николаевич</p>
+            <p class="employee__bio">Выпускник Пензенского государственного педагогического университета имени В.Г.
+              Белинского 2003 — 2008 гг.</p>
+            <img src="<%=require('./../../images/company/kochetkov-photo.png')%>" alt="Фото Кочеткова Андрея"
+              class="employee__photo">
+            <div class="employee__portfolio">
+              <div class="employee__portfolio-block">
+                <p class="employee__portfolio-text"><span class="employee__portfolio-bold-text">Стаж работы</span> с 2008 года</p>
+                <p class="employee__portfolio-text"><span class="employee__portfolio-bold-text">Направления юридической
+                    деятельности:</span> договорное право, оформление недвижимости и земельных участков, взыскание задолженности,
+                  оспариваниедействий / бездействий органов государственной власти, в том числе по результатам проверок, защита прав
+                  потребителей, оспаривание кадастровой стоимости объектов недвижимости, трудовые споры.</p>
+              </div>
+              <div class="employee__portfolio-block">
+                <p class="employee__portfolio-text"><span class="employee__portfolio-bold-text">Выигранных дел:</span>
+                </p>
+                <p class="employee__portfolio-text">Экономические споры > <span class="employee__portfolio-bold-text">100
+                    дел</span></p>
+                <p class="employee__portfolio-text">Гражданские споры > <span class="employee__portfolio-bold-text">50
+                    дел</span></p>
+                <p class="employee__portfolio-text">Административные дела > <span
+                    class="employee__portfolio-bold-text">35 дел</span></p>
+                <p class="employee__portfolio-text">Досудебное окончание дела в пользу клиента > <span
+                    class="employee__portfolio-bold-text">50 дел</span></p>
+                <p class="employee__portfolio-text">Окончание спора мировым соглашением > <span
+                    class="employee__portfolio-bold-text">10 дел</span></p>
+              </div>
+            </div>
+          </li>
+          <li class="employees__separator"></li>
+          <li class="employee">
+            <p class="employee__fio">Коршиков Андрей Олегович</p>
+            <p class="employee__bio">Выпускник Московского государственного университета им. М.В. Ломоносова 2016 г. по
+              направлению «Юриспруденция» (бакалавр). Выпускник Московского государственного университета им. М.В.
+              Ломоносова 2018 г. по направлению «Юриспруденция» (магистр).</p>
+            <img src="<%=require('./../../images/company/korshikov-photo.png')%>" alt="Фото Коршиков Андрей"
+              class="employee__photo">
+            <div class="employee__portfolio">
+              <div class="employee__portfolio-block">
+                <p class="employee__portfolio-text"><span class="employee__portfolio-bold-text">Стаж работы</span> с
+                  2015 года</p>
+                <p class="employee__portfolio-text"><span class="employee__portfolio-bold-text">Направления юридической
+                    деятельности:</span> работа с недвижимым имуществом, уголовное право, уголовный процесс, семейные, трудовые, наследственные споры — взыскание задолженности, оспаривание действий / бездействий органов государственной власти, договорное право, исполнительное производство.</p>
+              </div>
+              <div class="employee__portfolio-block">
+                <p class="employee__portfolio-text"><span class="employee__portfolio-bold-text">Выигранных дел:</span>
+                </p>
+                <p class="employee__portfolio-text">Экономические споры > <span class="employee__portfolio-bold-text">80
+                    дел</span></p>
+                <p class="employee__portfolio-text">Гражданские споры > <span class="employee__portfolio-bold-text">70
+                    дел</span></p>
+                <p class="employee__portfolio-text">Административные дела > <span
+                    class="employee__portfolio-bold-text">20 дел</span></p>
+                <p class="employee__portfolio-text">Досудебное окончание дела в пользу клиента > <span
+                    class="employee__portfolio-bold-text">50 дел</span></p>
+                <p class="employee__portfolio-text">Окончание спора мировым соглашением > <span
+                    class="employee__portfolio-bold-text">15 дел</span></p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
     </main>
 
     <footer class="footer">

@@ -1,3 +1,22 @@
 .company__info-banner {
-  
+  background-color: #243247;
+  padding: 82px 0 82px 118px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .company__info-banner {
+    padding: 48px 0 48px 64px;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 737px) {
+  .company__info-banner {
+    padding: 32px 0 32px 32px;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .company__info-banner {
+    padding: 52px 0 52px 47px;
+  }
 }
