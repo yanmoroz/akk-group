@@ -1,0 +1,7 @@
+.review__text-smaller {
+  margin: 0; 
+}
+
+.review__text-smaller:first-child {
+  margin-bottom: 40px;
+}

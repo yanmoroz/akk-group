@@ -1,0 +1,10 @@
+.review__employee-fio {
+  grid-area: employee-fio;
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 2px;
+  word-spacing: 100vw;
+  margin: 0;
+  text-transform: uppercase;
+}

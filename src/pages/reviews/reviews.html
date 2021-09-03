@@ -2,10 +2,11 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8">s
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Отзывы</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body class="page">
@@ -37,7 +38,357 @@
     </header>
 
     <main class="reviews">
-      
+      <h1 class="reviews__title">отзывы практика партнеров:</h1>
+      <ul style="list-style: none; margin: 0; padding: 0;">
+        <div class="reviews__slider-container">
+          <div class="slider">
+            <ul class="slider-list">
+              <li class="slider-list-item">
+                <div class="review">
+                  <p class="review__employee-fio">Алёшкин Дмитрий Владимирович</p>
+                  <div class="review__header">
+                    <p class="review__text-smaller"><span class="review__text-bold">Клиент: </span>коммерческая
+                      организация
+                    </p>
+                    <p class="review__text-smaller"><span class="review__text-bold">Статус клиента по делу:
+                      </span>ответчик по
+                      первоначальному иску / истец по встречному иску</p>
+                  </div>
+                  <div class="review__body">
+                    <p class="review__text-normal"><span class="review__text-bold">Фабула: </span>компания —
+                      первоначальный
+                      истец
+                      обратилась к Клиенту с иском о взыскании 62 млн. рублей задолженности по договору подряда. По
+                      итогам
+                      изучения
+                      материалов был подан встречный иск о взыскании почти 71 млн. рублей задолженности и 1,5 млн.
+                      рублей
+                      неустойки.
+                    </p>
+                    <p class="review__text-normal"><span class="review__text-bold">Итог: </span>в удовлетворении
+                      первоначального иска
+                      было о тказано.
+                      Встречный иск Клиента удовлетворён в полном объёме.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="slider-list-item">
+                <div class="review">
+                  <p class="review__employee-fio">Алёшкин Дмитрий Владимирович</p>
+                  <div class="review__header">
+                    <p class="review__text-smaller"><span class="review__text-bold">Клиент: </span>коммерческая организация
+                    </p>
+                    <p class="review__text-smaller"><span class="review__text-bold">Статус клиента по делу:
+                      </span>ответчик по экономическому спору</p>
+                  </div>
+                  <div class="review__body">
+                    <p class="review__text-normal"><span class="review__text-bold">Фабула: </span>
+                      в собственности Клиента находятся помещения, расположеные в здании, которое ремонтировалось в 2018г. за счёт бюджетных средств. По завершении ремонтных работ государственный орган обратился в суд с иском к Клиенту о взыскании более 8 млн. рублей в счёт стоимости произведённых работ.
+                    </p>
+                    <p class="review__text-normal"><span class="review__text-bold">Итог: </span>в иске государственному органу было отказано в полном объёме.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="slider-list-item">
+                <div class="review">
+                  <p class="review__employee-fio">Алёшкин Дмитрий Владимирович</p>
+                  <div class="review__header">
+                    <p class="review__text-smaller"><span class="review__text-bold">Клиент: </span>физическое лицо
+                    </p>
+                    <p class="review__text-smaller"><span class="review__text-bold">Статус клиента по делу:
+                      </span>истец по гражданскому делу</p>
+                  </div>
+                  <div class="review__body">
+                    <p class="review__text-normal"><span class="review__text-bold">Фабула: </span>Клиент обратился в ПФР о назначении ей страховой пенсии по старости в связи с особыми условиями труда. ПФР было вынесено решение об отказе в назначении страховой пенсии. Нами был подан иск в суд к ПФР о признании решения ПФР незаконным и назначении пенсии с момента возникновения данного права.
+                    </p>
+                    <p class="review__text-normal"><span class="review__text-bold">Итог: </span>решение ПФР судом признано незаконным. Клиенту назначена страховая пенсия по старости в связи с особыми условиями труда с момента возникновения данного права.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="slider-list-item">
+                <div class="review">
+                  <p class="review__employee-fio">Алёшкин Дмитрий Владимирович</p>
+                  <div class="review__header">
+                    <p class="review__text-smaller"><span class="review__text-bold">Клиент: </span>физическое лицо
+                    </p>
+                    <p class="review__text-smaller"><span class="review__text-bold">Статус клиента по делу:
+                      </span>ответчик по гражданскому делу</p>
+                  </div>
+                  <div class="review__body">
+                    <p class="review__text-normal"><span class="review__text-bold">Фабула: </span>Клиент в далёком
+                      2010г. брал кредит, и
+                      почему-то его не оплачивал,
+                      в 2015г. право-требование на
+                      задолженность Банк уступил
+                      третьему лицу, 
+                      которое в
+                      2020г. обратилось в суд с
+                      иском к Клиенту о
+                      взыскании основного долга и процентов за всё время
+                      просрочки возврата кредита.
+                      Иск третьего лица суд
+                      удовлетворил и вынес
+                      заочное решение. Честно
+                      говоря, Клиент даже и не
+                      знал о данном судебном
+                      процессе.
+                    </p>
+                    <p class="review__text-normal"><span class="review__text-bold">Итог: </span>заочное решение
+                      отменено. В иске третьему
+                      лицу к Клиенту отказано в
+                      полном объёме.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="reviews__slider-buttons-container">
+            <button class="reviews__slider-button slider-previous-button reviews__slider-button_direction-left"
+              type="button"></button>
+            <button class="reviews__slider-button slider-next-button reviews__slider-button_direction-right"
+              type="button"></button>
+          </div>
+        </div>
+        <div class="reviews__slider-container">
+          <div class="slider">
+            <ul class="slider-list">
+              <li class="slider-list-item">
+                <div class="review">
+                  <p class="review__employee-fio">Кочетков Андрей Николаевич</p>
+                  <div class="review__header">
+                    <p class="review__text-smaller"><span class="review__text-bold">Клиент: </span>коммерческая организация
+                    </p>
+                    <p class="review__text-smaller"><span class="review__text-bold">Статус клиента по делу:
+                      </span>истец по экономическому спору</p>
+                  </div>
+                  <div class="review__body">
+                    <p class="review__text-normal"><span class="review__text-bold">Фабула: </span>Компания – арендатор не возвратила помещения из аренды в последний день срока действия договора ввиду несвоевременного освобождения арендуемых помещений. Впоследствии уклонялось от надлежащего возврата помещений, считая их переданными. Истец спустя нескольких месяцев принял в одностороннем порядке помещения. По итогам изучения материалов был организован перечень мероприятий по оформлению надлежащего возврата помещений из аренды, подан иск о взыскании задолженности по арендной плате, убытков в виде восстановительного ремонта помещений и расходов по узакониванию перепланировки и процентов за пользование чужими денежными средствами.
+                    </p>
+                    <p class="review__text-normal"><span class="review__text-bold">Итог: </span>иск Клиента удовлетворён частично из заявленных 4 714 655,40 руб. взыскано 4 619 253,00 руб.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="slider-list-item">
+                <div class="review">
+                  <p class="review__employee-fio">Кочетков Андрей Николаевич</p>
+                  <div class="review__header">
+                    <p class="review__text-smaller"><span class="review__text-bold">Клиент: </span>коммерческая организация
+                    </p>
+                    <p class="review__text-smaller"><span class="review__text-bold">Статус клиента по делу:
+                      </span>административный истец</p>
+                  </div>
+                  <div class="review__body">
+                    <p class="review__text-normal"><span class="review__text-bold">Фабула: </span>в собственности
+                      Клиента находится нежилое
+                      здание, а также 
+                      в аренде
+                      земельный участок.
+                      Клиент решил снизить
+                      кадастровую стоимость
+                      здания и земельного
+                      участка.
+                    </p>
+                    <p class="review__text-normal"><span class="review__text-bold">Итог: </span>административный
+                      иск Клиента удовлетворён в
+                      полном объёме.
+                      Кадастровая стоимость
+                      здания и земельного участка
+                      снижены за 2019-2021 гг.
+                      Потенциальная экономия
+                      клиента на налоговых и
+                      арендных платежах за три
+                      года составила порядка
+                      6 000 000 руб. с учетом
+                      понесенных расходов по
+                      делу.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="slider-list-item">
+                <div class="review">
+                  <p class="review__employee-fio">Кочетков Андрей Николаевич</p>
+                  <div class="review__header">
+                    <p class="review__text-smaller"><span class="review__text-bold">Клиент: </span>коммерческая организация
+                    </p>
+                    <p class="review__text-smaller"><span class="review__text-bold">Статус клиента по делу:
+                      </span>ответчик по гражданскому делу</p>
+                  </div>
+                  <div class="review__body">
+                    <p class="review__text-normal"><span class="review__text-bold">Фабула: </span>к Клиенту
+                      был подан иск об
+                      истребовании имущества
+                      (трансформаторов) из
+                      чужого незаконного
+                      владения. Истребуемые
+                      трансформаторы были
+                      установлены истцом в
+                      результате модернизации
+                      системы электроснабжения
+                      Клиента, переданного в
+                      аренду истцу.
+                      По итогам изучения
+                      материалов было доказано, что истребуемое имущество
+                      является неотделимым
+                      улучшением арендуемого оборудования, компенсация
+                      за которое была выплачена
+                      Клиентом истцу в
+                      соответствии с условиями
+                      договора аренды.
+                    </p>
+                    <p class="review__text-normal"><span class="review__text-bold">Итог: </span>в иске истца к
+                      Клиенту было отказано в
+                      полном объёме. Клиент
+                      получил потенциальную
+                      выгоду в виде не возникших
+                      убытков, связанных с
+                      замещением истребуемого
+                      имущества, либо выплаты
+                      стоимости неотделимых
+                      улучшений на сумму
+                      порядка 34 000 000 руб.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="reviews__slider-buttons-container">
+            <button class="reviews__slider-button slider-previous-button reviews__slider-button_direction-left"
+              type="button"></button>
+            <button class="reviews__slider-button slider-next-button reviews__slider-button_direction-right"
+              type="button"></button>
+          </div>
+        </div>
+        <div class="reviews__slider-container">
+          <div class="slider">
+            <ul class="slider-list">
+              <li class="slider-list-item">
+                <div class="review">
+                  <p class="review__employee-fio">Коршиков Андрей Олегович</p>
+                  <div class="review__header">
+                    <p class="review__text-smaller"><span class="review__text-bold">Клиент: </span>коммерческая организация
+                    </p>
+                    <p class="review__text-smaller"><span class="review__text-bold">Статус клиента по делу:
+                      </span>истец по экономическому спору</p>
+                  </div>
+                  <div class="review__body">
+                    <p class="review__text-normal"><span class="review__text-bold">Фабула: </span>департамент
+                      городского имущества г.
+                      Москвы незаконно попытался
+                      изъять из собственности
+                      Клиента несколько нежилых
+                      строений, признав 
+                      их сначала
+                      бесхозяйными, а затем
+                      обратившись с исками о
+                      признании права
+                      собственности в пользу г.
+                      Москвы. При этом
+                      Департамент являлся лицом, ранее выдавшим план
+                      приватизации на указанные
+                      строения, а Клиент неоднократно
+                      выражал свои
+                      правопритязания на данные
+                      объекты Департаменту.
+                      Клиент обратился в
+                      Арбитражный суд г. Москвы с
+                      иском о признании права
+                      собственности к Департаменту.
+                    </p>
+                    <p class="review__text-normal"><span class="review__text-bold">Итог: </span>признано право собственности Клиента на все спорные строения.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="slider-list-item">
+                <div class="review">
+                  <p class="review__employee-fio">Коршиков Андрей Олегович</p>
+                  <div class="review__header">
+                    <p class="review__text-smaller"><span class="review__text-bold">Клиент: </span>физическое лицо
+                    </p>
+                    <p class="review__text-smaller"><span class="review__text-bold">Статус клиента по делу:
+                      </span>истец по гражданскому делу</p>
+                  </div>
+                  <div class="review__body">
+                    <p class="review__text-normal"><span class="review__text-bold">Фабула: </span>Клиент заключил с
+                      другим лицом договор займа,
+                      обеспечив его залогом
+                      недвижимого имущества
+                      (ипотекой). При этом залог был
+                      оформлен не соответствующим
+                      договором, а договором купли-
+                      продажи дома и земельного
+                      участка, т.е. до момента
+                      выплаты суммы займа (долга)
+                      право собственности
+                      переходило Займодавцу, далее
+                      право собственности должно
+                      было быть возвращено
+                      Клиенту. Злоупотребив своим
+                      правом, Займодавец продал
+                      данные объекты
+                      недвижимости.
+                      Клиент обратился в
+                      Воскресенский городской суд
+                      Московской области с иском о
+                      признании договора купли–продажи недействительным.
+                    </p>
+                    <p class="review__text-normal"><span class="review__text-bold">Итог: </span>договор купли-продажи
+                      недвижимого имущества
+                      признан недействительным в
+                      силу его притворности
+                      (прикрытие договора залога
+                      недвижимого имущества).</p>
+                  </div>
+                </div>
+              </li>
+              <li class="slider-list-item">
+                <div class="review">
+                  <p class="review__employee-fio">Коршиков Андрей Олегович</p>
+                  <div class="review__header">
+                    <p class="review__text-smaller"><span class="review__text-bold">Клиент: </span>коммерческая организация
+                    </p>
+                    <p class="review__text-smaller"><span class="review__text-bold">Статус клиента по делу:
+                      </span>заинтересованное лицо (податель жалобы) по делу об административном правонарушении</p>
+                  </div>
+                  <div class="review__body">
+                    <p class="review__text-normal"><span class="review__text-bold">Фабула: </span>Государственной
+                      инспекцией по контролю за
+                      использованием объектов
+                      недвижимости города Москвы
+                      Клиент был привлечен к
+                      административной ответственности за нарушение
+                      разрешенного использования
+                      земельного участка, поскольку
+                      договор аренды земельного
+                      участка не предусматривает возможность размещения на
+                      нем автосалона и
+                      осуществление на нем продажи
+                      автомобилей.
+                      Не согласившись с данным
+                      постановлением, Клиент
+                      обратился с жалобой в Лефортовский районный суд г.
+                      Москвы.
+                    </p>
+                    <p class="review__text-normal"><span class="review__text-bold">Итог: </span>жалоба Клиента
+                      удовлетворена, постановление
+                      Госинспекции по
+                      недвижимости было отменено,
+                      производство по делу об
+                      административном
+                      правонарушении прекращено.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="reviews__slider-buttons-container">
+            <button class="reviews__slider-button slider-previous-button reviews__slider-button_direction-left"
+              type="button"></button>
+            <button class="reviews__slider-button slider-next-button reviews__slider-button_direction-right"
+              type="button"></button>
+          </div>
+        </div>
+      </ul>
     </main>
 
     <footer class="footer">

@@ -1,0 +1,6 @@
+.reviews__slider-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 184px;
+  background-color: #f2f2f2;
+}

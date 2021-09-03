@@ -21,6 +21,20 @@
 @import url('../../blocks/header/_hidden/header_hidden.css');
 
 @import url('../../blocks/reviews/reviews.css');
+@import url('../../blocks/reviews/__title/reviews__title.css');
+@import url('../../blocks/reviews/__slider-buttons-container/reviews__slider-buttons-container.css');
+@import url('../../blocks/reviews/__slider-button/reviews__slider-button.css');
+@import url('../../blocks/reviews/__slider-button/_direction/reviews__slider-button_direction-left.css');
+@import url('../../blocks/reviews/__slider-button/_direction/reviews__slider-button_direction-right.css');
+@import url('../../blocks/reviews/__slider-container/reviews__slider-container.css');
+
+@import url('../../blocks/review/review.css');
+@import url('../../blocks/review/__employee-fio/review__employee-fio.css');
+@import url('../../blocks/review/__header/review__header.css');
+@import url('../../blocks/review/__text-smaller/review__text-smaller.css');
+@import url('../../blocks/review/__text-normal/review__text-normal.css');
+@import url('../../blocks/review/__text-bold/review__text-bold.css');
+@import url('../../blocks/review/__body/review__body.css');
 
 @import url('../../blocks/hamburger/hamburger.css');
 @import url('../../blocks/hamburger/__links-list/hamburger__links-list.css');
@@ -31,3 +45,80 @@
 
 @import url('../../blocks/footer/footer.css');
 @import url('../../blocks/footer/__text/footer__text.css');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider ul {
+  position: relative;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+}
+
+.slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+button.control_prev, button.control_next {
+  position: relative;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+button.control_prev:hover, button.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+button.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+button.control_next {
+  right: 0;
+}

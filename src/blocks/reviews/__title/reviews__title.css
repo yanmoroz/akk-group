@@ -1,0 +1,11 @@
+.reviews__title {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 73px;
+  letter-spacing: 2px;
+  color: #F2F2F2;
+  margin: 157px 0 98px;
+  text-transform: uppercase;
+  word-spacing: 100vw;
+  text-align: left;
+}

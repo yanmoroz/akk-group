@@ -1,0 +1,11 @@
+.review {
+  background-color: #F2F2F2;
+  display: grid;
+  grid-auto-rows: auto 1fr;
+  grid-template-areas: 
+    "employee-fio header"
+    "body body";
+  padding: 87px 138px 136px 139px;
+  row-gap: 50px;
+  max-height: 829px;
+}

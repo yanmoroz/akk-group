@@ -1,4 +1,8 @@
 .reviews {
+  display: flex;
+  flex-direction: column;
+  padding-left: 98px;
+  background-color: #243247;
   min-height: calc(100vh - 110px);
 }
 
