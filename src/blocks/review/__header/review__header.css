@@ -1,3 +1,9 @@
 .review__header {
   grid-area: header;
 }
+
+@media screen and (max-width: 767px) {
+  .review__header {
+    margin-bottom: 24px;
+  }
+}

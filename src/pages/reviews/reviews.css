@@ -27,6 +27,10 @@
 @import url('../../blocks/reviews/__slider-button/_direction/reviews__slider-button_direction-left.css');
 @import url('../../blocks/reviews/__slider-button/_direction/reviews__slider-button_direction-right.css');
 @import url('../../blocks/reviews/__slider-container/reviews__slider-container.css');
+@import url('../../blocks/reviews/__list/reviews__list.css');
+@import url('../../blocks/reviews/__image-first/reviews__image-first.css');
+@import url('../../blocks/reviews/__image-second/reviews__image-second.css');
+@import url('../../blocks/reviews/__image-third/reviews__image-third.css');
 
 @import url('../../blocks/review/review.css');
 @import url('../../blocks/review/__employee-fio/review__employee-fio.css');
@@ -37,6 +41,7 @@
 @import url('../../blocks/review/__body/review__body.css');
 
 @import url('../../blocks/hamburger/hamburger.css');
+@import url('../../blocks/hamburger/__logo/hamburger__logo.css');
 @import url('../../blocks/hamburger/__links-list/hamburger__links-list.css');
 @import url('../../blocks/hamburger/__link/hamburger__link.css');
 @import url('../../blocks/hamburger/__links-list-item/hamburger__links-list-item.css');
@@ -45,32 +50,6 @@
 
 @import url('../../blocks/footer/footer.css');
 @import url('../../blocks/footer/__text/footer__text.css');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h1 {
-  color: #fff;
-  text-align: center;
-  font-weight: 300;
-}
 
 .slider {
   position: relative;
@@ -92,33 +71,4 @@ h1 {
   position: relative;
   display: block;
   float: left;
-}
-
-button.control_prev, button.control_next {
-  position: relative;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  background: #2a2a2a;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-button.control_prev:hover, button.control_next:hover {
-  opacity: 1;
-  -webkit-transition: all 0.2s ease;
-}
-
-button.control_prev {
-  border-radius: 0 2px 2px 0;
-}
-
-button.control_next {
-  right: 0;
 }

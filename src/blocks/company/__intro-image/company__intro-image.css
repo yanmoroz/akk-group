@@ -1,5 +1,5 @@
 .company__intro-image {
-  grid-area: image; 
+  grid-area: image;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

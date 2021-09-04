@@ -5,7 +5,27 @@
   grid-template-areas: 
     "employee-fio header"
     "body body";
-  padding: 87px 138px 136px 139px;
+  padding: 87px 138px 0 139px;
   row-gap: 50px;
-  max-height: 829px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .review {
+    padding: 40px 70px 0 70px;
+    row-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .review {
+    padding: 20px 46px 0 20px;
+    row-gap: 0;
+
+
+    grid-auto-rows: auto;
+    grid-template-areas: 
+      "employee-fio"
+      "header"
+      "body";
+  }
 }

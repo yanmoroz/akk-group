@@ -1,0 +1,12 @@
+.reviews__image-third {
+  position: relative;
+  float: right;
+  margin-right: 89px;
+  margin-bottom: 176px;
+}
+
+@media screen and (max-width: 767px) {
+  .reviews__image-third {
+    display: none;
+  }
+}

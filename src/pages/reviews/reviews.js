@@ -42,6 +42,19 @@ var slidersInfo = [
   }
 ];
 
+function getCorrectedIndex(index) {
+  switch (index) {
+    case 1:
+      return 0;
+    case 3:
+      return 1;
+    case 4:
+      return 2;
+    default:
+      return index
+  } 
+}
+
 window.addEventListener('resize', function(evt) {
   var block = $('.reviews')
   
@@ -49,17 +62,16 @@ window.addEventListener('resize', function(evt) {
     var sliderContainer = $(this);
     var slideCount = $(this).find('.slider .slider-list .slider-list-item').length;
     var slideWidth = block.width();
-    var slideHeight = $(this).find('.slider .slider-list .slider-list-item').height();
     var sliderUlWidth = slideCount * slideWidth;
 
     $(this).find('.slider .slider-list .slider-list-item').each(function (i) {
       $(this).width(block.width());
     })
 
-    $(this).css({ width: slideWidth, height: slideHeight });
+    $(this).css({ width: slideWidth });
     $(this).find('.slider  .slider-list').css({ width: sliderUlWidth });
 
-    let sliderIndex = sliderContainer.index();
+    let sliderIndex = getCorrectedIndex(sliderContainer.index());
     sliderContainer.find('.slider .slider-list').css({ left: - (slideWidth * (slidersInfo[sliderIndex].currentIndex - 1)) });
   })
 });
@@ -67,12 +79,10 @@ window.addEventListener('resize', function(evt) {
 jQuery(document).ready(function ($) {
   var block = $('.reviews')
 
-
   $('.reviews__slider-container').each(function (i) {
     var sliderContainer = $(this);
     var slideCount = $(this).find('.slider .slider-list .slider-list-item').length;
     var slideWidth = block.width();
-    var slideHeight = $(this).find('.slider .slider-list .slider-list-item').height();
     var sliderUlWidth = slideCount * slideWidth;
   
     slidersInfo[i].slidesCount = $(this).find('.slider .slider-list .slider-list-item').length;
@@ -83,11 +93,11 @@ jQuery(document).ready(function ($) {
   
     updateButtons($(this), i);
 
-    $(this).css({ width: slideWidth, height: slideHeight });
+    $(this).css({ width: slideWidth });
     $(this).find('.slider .slider-list').css({ width: sliderUlWidth });
 
     $(this).find('.slider-previous-button').click(function () {
-      let sliderIndex = $(this).closest('.reviews__slider-container').index();
+      let sliderIndex = getCorrectedIndex(sliderContainer.index());
       slidersInfo[sliderIndex].currentIndex -= 1;
 
       var slideWidth = block.width();
@@ -99,7 +109,7 @@ jQuery(document).ready(function ($) {
     });
 
     $(this).find('.slider-next-button').click(function () {
-      let sliderIndex = $(this).closest('.reviews__slider-container').index();
+      let sliderIndex = getCorrectedIndex(sliderContainer.index());
       slidersInfo[sliderIndex].currentIndex += 1;
 
       var slideWidth = block.width();

@@ -6,6 +6,13 @@
   min-height: calc(100vh - 110px);
 }
 
+@media screen and (max-width: 767px) {
+  .reviews {
+    padding-left: 29px;
+  }
+}
+
+
 @media screen and (max-width: 519px) {
   .reviews {
     min-height: calc(100vh - 142px);

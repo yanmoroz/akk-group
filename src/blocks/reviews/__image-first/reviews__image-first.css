@@ -1,0 +1,11 @@
+.reviews__image-first {
+  position: relative;
+  float: right;
+  margin-right: 75px;
+}
+
+@media screen and (max-width: 767px) {
+  .reviews__image-first {
+    display: none;
+  }
+}
