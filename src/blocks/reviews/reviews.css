@@ -12,7 +12,6 @@
   }
 }
 
-
 @media screen and (max-width: 519px) {
   .reviews {
     min-height: calc(100vh - 142px);

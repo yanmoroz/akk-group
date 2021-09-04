@@ -9,6 +9,7 @@
 @import url('../../blocks/common-button/common-button.css');
 
 @import url('../../blocks/header/header.css');
+@import url('../../blocks/header/__page-link/_active/header__page-link_active.css');
 @import url('../../blocks/header/__menu/header__menu.css');
 @import url('../../blocks/header/__logo/header__logo.css');
 @import url('../../blocks/header/_active-background/header_active-background.css');
@@ -59,6 +60,7 @@
 @import url('../../blocks/menu/__list/menu__list.css');
 @import url('../../blocks/menu/__list-item-title/menu__list-item-title.css');
 @import url('../../blocks/menu/__list-item-text/menu__list-item-text.css');
+@import url('../../blocks/menu/__list-item-text/_bold/menu__list-item-text_bold.css');
 @import url('../../blocks/menu/__buttons-list/menu__buttons-list.css');
 @import url('../../blocks/menu/__button/menu__button.css');
 

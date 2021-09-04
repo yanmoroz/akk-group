@@ -1,0 +1,19 @@
+.reviews__button-with-caption {
+  display: flex;
+  flex-direction: column;
+  color: #333333;
+  text-align: center;
+  font-size: 16px; 
+}
+
+.reviews__button-with-caption:nth-child(2) {
+  margin-left: 30px;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .reviews__button-with-caption:nth-child(2) {
+    margin-left: 0;
+    display: none;
+  }
+}

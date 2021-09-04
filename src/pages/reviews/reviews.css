@@ -9,18 +9,24 @@
 @import url('../../blocks/common-button/common-button.css');
 
 @import url('../../blocks/header/header.css');
+@import url('../../blocks/header/__page-link/_active/header__page-link_active-black.css');
 @import url('../../blocks/header/__menu/header__menu.css');
-@import url('../../blocks/header/__logo/header__logo.css');
-@import url('../../blocks/header/_active-background/header_active-background.css');
+@import url('../../blocks/header/__logo/header__logo-black.css');
+@import url('../../blocks/header/_active-background/header_active-background-white.css');
 @import url('../../blocks/header/__pages-list/header__pages-list.css');
 @import url('../../blocks/header/__pages-list-item/header__pages-list-item.css');
-@import url('../../blocks/header/__page-link/header__page-link.css');
+@import url('../../blocks/header/__page-link/header__page-link-black.css');
 @import url('../../blocks/header/__logo/_visible/header__logo_visible.css');
-@import url('../../blocks/header/__hamburger-button/header__hamburger-button.css');
+@import url('../../blocks/header/__hamburger-button/header__hamburger-button-black.css');
 @import url('../../blocks/header/__hamburger-button/_visible/header__hamburger-button_visible.css');
 @import url('../../blocks/header/_hidden/header_hidden.css');
 
 @import url('../../blocks/reviews/reviews.css');
+@import url('../../blocks/reviews/__button-caption/reviews__button-caption.css');
+@import url('../../blocks/reviews/__buttons-group/reviews__buttons-group.css');
+@import url('../../blocks/reviews/__button-with-caption/reviews__button-with-caption.css');
+@import url('../../blocks/reviews/__slider-redirect-button/reviews__slider-redirect-button.css');
+@import url('../../blocks/reviews/__slider-download-button/reviews__slider-download-button.css');
 @import url('../../blocks/reviews/__title/reviews__title.css');
 @import url('../../blocks/reviews/__slider-buttons-container/reviews__slider-buttons-container.css');
 @import url('../../blocks/reviews/__slider-button/reviews__slider-button.css');

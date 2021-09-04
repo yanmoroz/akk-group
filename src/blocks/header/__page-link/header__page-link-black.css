@@ -1,0 +1,9 @@
+.header__page-link-black {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  color: #243247;
+  text-decoration: none;
+  text-transform: uppercase;
+}

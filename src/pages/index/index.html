@@ -17,7 +17,7 @@
       <div class="header__menu">
         <ul class="header__pages-list">
           <li class="header__pages-list-item">
-            <a href="index.html" class="header__page-link link">Главная</a>
+            <a href="index.html" class="header__page-link link header__page-link_active">Главная</a>
           </li>
           <li class="header__pages-list-item">
             <a href="company.html" class="header__page-link link">О компании</a>
@@ -94,7 +94,7 @@
                 <p class="services__list-row">Взыскание задолженности</p>
                 <p class="services__list-row">Банкротство</p>
                 <p class="services__list-row">Споры с застройщиком</p>
-                <button class="services__list-button common-button link">Подробнее</button>
+                <a class="common-button services__list-button link" href="services.html#anchor-1">Подробнее</a>
               </li>
             </ul>
           </li>
@@ -108,7 +108,7 @@
                 <p class="services__list-row">Взыскание задолженности</p>
                 <p class="services__list-row">Решение трудовых споров</p>
                 <p class="services__list-row">Налоговые споры</p>
-                <button class="services__list-button common-button link">Подробнее</button>
+                <a class="common-button services__list-button link" href="services.html#anchor-2">Подробнее</a>
               </li>
             </ul>
           </li>
@@ -182,20 +182,22 @@
           <li class="menu__list-item">
             <p class="menu__list-item-title">Контакты</p>
             <p class="menu__list-item-text">+7 495 773 06 79</p>
+            <p class="menu__list-item-text"><span class="menu__list-item-text_bold">Instagram</span> akk_group</p>
+            <p class="menu__list-item-text"><span class="menu__list-item-text_bold">Telegram</span> t.me/akkgroup</p>
           </li>
         </ul>
         <ul class="menu__buttons-list">
           <li class="menu__buttons-list-item">
-            <button class="common-button menu__button link">Подробнее</button>
+            <button class="common-button menu__button link" type="button" onclick="location.href='company.html'">Подробнее</button>
           </li>
           <li class="menu__buttons-list-item">
-            <button class="common-button menu__button link">Подробнее</button>
+            <button class="common-button menu__button link" type="button" onclick="location.href='services.html'">Подробнее</button>
           </li>
           <li class="menu__buttons-list-item">
-            <button class="common-button menu__button link">Подробнее</button>
+            <button class="common-button menu__button link" type="button" onclick="location.href='reviews.html'">Подробнее</button>
           </li>
           <li class="menu__buttons-list-item">
-            <button class="common-button menu__button link">Подробнее</button>
+            <button class="common-button menu__button link" type="button" onclick="location.href='contacts.html'">Подробнее</button>
           </li>
         </ul>
       </section>
@@ -214,7 +216,7 @@
     <button class="hamburger__close-button link"></button>
     <ul class="hamburger__links-list">
       <li class="hamburger__links-list-item">
-        <a href="index.html" class="hamburger__link link">Главная</a>
+        <a href="index.html" class="hamburger__link link header__page-link_active">Главная</a>
       </li>
       <li class="hamburger__links-list-item">
         <a href="company.html" class="hamburger__link link">О компании</a>

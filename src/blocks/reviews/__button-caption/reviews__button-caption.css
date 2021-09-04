@@ -1,0 +1,12 @@
+.reviews__button-caption {
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+@media screen and (max-width: 767px) {
+  .reviews__button-caption {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

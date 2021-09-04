@@ -1,6 +1,7 @@
 .reviews__slider-buttons-container {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
   justify-content: space-between;
   background-color: #f2f2f2;
   padding: 17px 56px;

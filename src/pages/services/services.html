@@ -23,7 +23,7 @@
             <a href="company.html" class="header__page-link link">О компании</a>
           </li>
           <li class="header__pages-list-item">
-            <a href="services.html" class="header__page-link link">Услуги/цены</a>
+            <a href="services.html" class="header__page-link link header__page-link_active">Услуги/цены</a>
           </li>
           <li class="header__pages-list-item">
             <a href="reviews.html" class="header__page-link link">Отзывы</a>
@@ -44,6 +44,7 @@
         <p class="services__title">услуги:</p>
       </div>
       <ul class="services__list">
+        <div id="anchor-1"></div>
         <li class="services__group">
           <img src="<%=require('./../../images/services/services-icon-1.svg')%>" alt="Иконка услуг физическим лицам"
             class="services__group-icon">
@@ -79,11 +80,11 @@
               <p class="services__group-column-paragraph">Оспаривание кадастровой стоимости объектов недвижимости</p>
               <p class="services__group-column-paragraph">Постановка объектов на кадастровый учет</p>
               <p class="services__group-column-paragraph">Адвокат по уголовным делам и другие вопросы</p>
-              <button class="common-button services__button link">Открыть прайс</button>
+              <button class="common-button services__button link first-button">Открыть прайс</button>
             </li>
           </ul>
         </li>
-        <li class="services__group">
+        <li class="services__group" id="anchor-2">
           <img src="<%=require('./../../images/services/services-icon-2.svg')%>" alt="Иконка услуг юридическим лицам"
             class="services__group-icon">
           <div class="services__group-title-container">
@@ -112,7 +113,7 @@
               <p class="services__group-column-paragraph">Приватизация, перевод помещений из жилого/нежилого в нежилой/жилой фонд</p>
               <p class="services__group-column-paragraph">Регистрация ЮЛ/ИП</p>
               <p class="services__group-column-paragraph">Налоговые споры и другие вопросы</p>
-              <button class="common-button services__button link">Открыть прайс</button>
+              <button class="common-button services__button link second-button">Открыть прайс</button>
             </li>
           </ul>
         </li>
@@ -147,7 +148,7 @@
         <a href="company.html" class="hamburger__link link">О компании</a>
       </li>
       <li class="hamburger__links-list-item">
-        <a href="services.html" class="hamburger__link link">Услуги</a>
+        <a href="services.html" class="hamburger__link link header__page-link_active">Услуги</a>
       </li>
       <li class="hamburger__links-list-item">
         <a href="reviews.html" class="hamburger__link link">Отзывы</a>

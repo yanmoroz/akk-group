@@ -22,3 +22,18 @@ hamburgerLinks.forEach(link => {
     hamburgerContainer.classList.remove('hamburger_visible');
   })
 })
+
+let firstButton = document.querySelector('.first-button');
+firstButton.addEventListener('click', (evt) => {
+  window.open('/prices-1.pdf');
+})
+
+let secondButton = document.querySelector('.second-button');
+secondButton.addEventListener('click', (evt) => {
+  window.open('/prices-2.pdf');
+})
+
+let contractDownloadButton = document.querySelector('.services__pact-download-button');
+contractDownloadButton.addEventListener('click', (evt) => {
+  window.open('/contract.pdf');
+})

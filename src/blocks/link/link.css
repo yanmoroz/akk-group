@@ -5,3 +5,7 @@
 .link:hover {
   opacity: 0.65;
 }
+
+.link:not(:focus) {
+  opacity: 1.0;
+}
