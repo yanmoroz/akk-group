@@ -1,0 +1,9 @@
+.footer-white {
+  background-color: #F2F2F2;
+}
+
+@media screen and (max-width: 519px) {
+  .footer-white {
+    background-color: #243247;
+  }
+}

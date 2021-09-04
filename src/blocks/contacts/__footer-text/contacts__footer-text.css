@@ -1,0 +1,13 @@
+.contacts__footer-text {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.1em;
+  color: #243247;
+}
+
+@media screen and (max-width: 519px) {
+  .contacts__footer-text {
+    color: white;
+  }
+}

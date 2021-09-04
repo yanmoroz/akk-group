@@ -1,0 +1,9 @@
+.footer__text-black {
+  color: #243247;
+}
+
+@media screen and (max-width: 519px) {
+  .footer__text-black {
+    color: white;
+  }
+}
