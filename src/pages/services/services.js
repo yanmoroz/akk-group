@@ -23,6 +23,10 @@ hamburgerLinks.forEach(link => {
   })
 })
 
+mainContainer.addEventListener('click', function(evt) {
+  collapseSocialMenu();
+})
+
 let firstButton = document.querySelector('.first-button');
 firstButton.addEventListener('click', (evt) => {
   window.open('/prices-1.pdf');
@@ -36,4 +40,60 @@ secondButton.addEventListener('click', (evt) => {
 let contractDownloadButton = document.querySelector('.services__pact-download-button');
 contractDownloadButton.addEventListener('click', (evt) => {
   window.open('/contract.pdf');
+})
+
+const collapseSocialMenu = () => {
+  socialExpandedMenu.style.display = 'none';
+  socialCollapsedMenu.style.display = 'flex';
+}
+
+const expandSocialMenu = () => {
+  socialExpandedMenu.style.display = 'flex';
+  socialCollapsedMenu.style.display = 'none';
+}
+
+let lastKnownScrollPosition = 0;
+let ticking = false;
+
+function scrollDidChange(scrollPos) {
+  collapseSocialMenu();
+}
+
+document.addEventListener('scroll', function(evt) {
+  lastKnownScrollPosition = window.scrollY
+
+  if (!ticking) {
+    window.requestAnimationFrame(function() {
+      scrollDidChange(lastKnownScrollPosition)
+      ticking = false
+    });
+
+    ticking = true
+  }
+});
+
+const socialButtonOpen = document.querySelector('#social-menu-button-open');
+const socialButtonTelegram = document.querySelector('#social-menu-button-telegram');
+const socialButtonInstagram = document.querySelector('#social-menu-button-instagram');
+const socialButtonWhatsapp = document.querySelector('#social-menu-button-whatsapp');
+const socialCollapsedMenu = document.querySelector('.social-menu_state_collapsed');
+const socialExpandedMenu = document.querySelector('.social-menu_state_expanded');
+
+socialButtonOpen.addEventListener('click', (evt) => {
+  expandSocialMenu();
+})
+
+socialButtonTelegram.addEventListener('click', (evt) => {
+  open('http://t.me/akkgroup');
+  collapseSocialMenu();
+})
+
+socialButtonInstagram.addEventListener('click', (evt) => {
+  open('https://www.instagram.com/akk_group/');
+  collapseSocialMenu();
+})
+
+socialButtonWhatsapp.addEventListener('click', (evt) => {
+  open('https://wa.me/74957730679');
+  collapseSocialMenu();
 })

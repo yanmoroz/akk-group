@@ -1,0 +1,11 @@
+.social-menu__button_size_big {
+  width: 65px;
+  height: 65px;
+}
+
+@media screen and (max-width: 519px) {
+  .social-menu__button_size_big {
+    width: 36px;
+    height: 36px;
+  }
+}

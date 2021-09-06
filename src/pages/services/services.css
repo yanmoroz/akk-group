@@ -8,6 +8,17 @@
 @import url('../../blocks/link/link.css');
 @import url('../../blocks/common-button/common-button.css');
 
+@import url('../../blocks/social-menu/social-menu.css');
+@import url('../../blocks/social-menu/_visibility/social-menu_visibility_visible.css');
+@import url('../../blocks/social-menu/_visibility/social-menu_visibility_collapsed.css');
+@import url('../../blocks/social-menu/__list-separator/social-menu__list-separator.css');
+@import url('../../blocks/social-menu/__button/_size/social-menu__button_size_small.css');
+@import url('../../blocks/social-menu/__button/_size/social-menu__button_size_big.css');
+@import url('../../blocks/social-menu/__list/social-menu__list.css');
+@import url('../../blocks/social-menu/__list-item/social-menu__list-item.css');
+@import url('../../blocks/social-menu/_state/social-menu_state_collapsed.css');
+@import url('../../blocks/social-menu/_state/social-menu_state_expanded.css');
+
 @import url('../../blocks/header/header.css');
 @import url('../../blocks/header/__page-link/_active/header__page-link_active.css');
 @import url('../../blocks/header/__menu/header__menu.css');

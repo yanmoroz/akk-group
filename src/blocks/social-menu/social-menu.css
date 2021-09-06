@@ -1,0 +1,10 @@
+.social-menu {
+  position: fixed;
+  right: 0%;
+  bottom: 50px;
+  margin-right: calc(max(10px, calc(50vw - 700px + 10px)));
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

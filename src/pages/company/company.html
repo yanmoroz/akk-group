@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>О Компании</title>
-  <link rel="shortcut icon" type="image/svg" href="<%=require('./../../images/akk-logo-small.svg')%>"/>
+  <link rel="shortcut icon" type="image/svg" href="<%=require('./../../images/favicon.svg')%>"/>
 </head>
 
 <body class="page">
@@ -168,6 +168,31 @@
       <p class="footer__text">Политика конфиденциальности</p>
     </footer>
   </div>
+
+  <section class="social-menu">
+    <div class="social-menu_state_collapsed social-menu_visibility_visibile">
+      <img id="social-menu-button-open" class="social-menu__button_size_big" src="<%=require('./../../images/social-menu-default-icon.png')%>" alt="Иконка открытия медиа">
+    </div>
+    <div class="social-menu_state_expanded social-menu_visibility_collapsed">
+      <ul class="social-menu__list">
+        <li class="social-menu__list-item">
+          <img id="social-menu-button-telegram" class="social-menu__button_size_small" src="<%=require('./../../images/social-telegram-icon.svg')%>" alt="Иконка телеграм">
+        </li>
+        <li class="social-menu__list-item">
+          <div class="social-menu__list-separator"></div>
+        </li>
+        <li class="social-menu__list-item">
+          <img id="social-menu-button-instagram" class="social-menu__button_size_small" src="<%=require('./../../images/social-instagram-icon.svg')%>" alt="Иконка инстагарм">
+        </li>
+        <li class="social-menu__list-item">
+          <div class="social-menu__list-separator"></div>
+        </li>
+        <li class="social-menu__list-item">
+          <img id="social-menu-button-whatsapp" class="social-menu__button_size_small" src="<%=require('./../../images/social-whatsapp-icon.svg')%>" alt="Иконка вотсап">
+        </li>
+      </ul>
+    </div>
+  </section>
 
   <div class="hamburger">
     <a href="#" class="hamburger__logo link">

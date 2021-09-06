@@ -1,0 +1,11 @@
+.social-menu__list-separator {
+  height: 1px;
+  background-color: black;
+  margin: 13px 0 19px;
+}
+
+@media screen and (max-width: 519px) {
+  .social-menu__list-separator {
+    margin: 7px 0 10px;
+  }
+}

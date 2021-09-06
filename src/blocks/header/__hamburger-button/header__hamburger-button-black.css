@@ -9,7 +9,7 @@
   flex-shrink: 0;
   border: none;
   margin: 21px 0 0 0;
-  visibility: hidden; 
+  visibility: hidden;
 }
 
 @media screen and (min-width: 520px) and (max-width: 767px) {
