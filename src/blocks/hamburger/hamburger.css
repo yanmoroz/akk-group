@@ -9,4 +9,5 @@
   align-items: center;
   background-color: #243247;
   visibility: collapse;
+  overflow: auto;
 }

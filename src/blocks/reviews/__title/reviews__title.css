@@ -4,16 +4,24 @@
   line-height: 73px;
   letter-spacing: 2px;
   color: #F2F2F2;
-  margin: 157px 0 98px;
+  margin: 157px 0 24px;
   text-transform: uppercase;
   word-spacing: 100vw;
   text-align: left;
+}
+
+.reviews__title:last-of-type {
+  margin: 0 0 76px; 
 }
 
 @media screen and (max-width: 767px) {
   .reviews__title {
     font-size: 30px;
     line-height: 40px;
-    margin: 30px 0 36px;
+    margin: 30px 0 20px;
+  }
+
+  .reviews__title:last-of-type {
+    margin: 0 0 36px; 
   }
 }

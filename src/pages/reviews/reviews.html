@@ -13,7 +13,7 @@
 <body class="page">
   <div class="container">
     <header class="header header_active-background-white">
-      <a href="#" class="header__logo-black header__logo_visible link">
+      <a href="index.html" class="header__logo-black header__logo_visible link">
         <img src="<%=require('./../../images/akk-logo-small.svg')%>" alt="Логотип">
       </a>
       <div class="header__menu">
@@ -25,10 +25,10 @@
             <a href="company.html" class="header__page-link-black link">О компании</a>
           </li>
           <li class="header__pages-list-item">
-            <a href="services.html" class="header__page-link-black link">Услуги/цены</a>
+            <a href="services.html" class="header__page-link-black link">Услуги / цены</a>
           </li>
           <li class="header__pages-list-item">
-            <a href="reviews.html" class="header__page-link-black link header__page-link_active-black">Отзывы</a>
+            <a href="reviews.html" class="header__page-link-black link header__page-link_active-black">Практика / Отзывы</a>
           </li>
           <li class="header__pages-list-item">
             <a href="contacts.html" class="header__page-link-black link">Контакты</a>
@@ -39,7 +39,8 @@
     </header>
 
     <main class="reviews">
-      <h1 class="reviews__title">отзывы практика партнеров:</h1>
+      <h1 class="reviews__title">практика партнеров</h1>
+      <h1 class="reviews__title">отзывы</h1>
       <ul class="reviews__list">
         <img src="<%=require('./../../images/reviews/reviews-image-1.png')%>" alt="" class="reviews__image-first">
         <div class="reviews__slider-container">
@@ -69,7 +70,7 @@
                     </p>
                     <p class="review__text-normal"><span class="review__text-bold">Итог: </span>в удовлетворении
                       первоначального иска
-                      было о тказано.
+                      было отказано.
                       Встречный иск Клиента удовлетворён в полном объёме.</p>
                   </div>
                 </div>
@@ -189,14 +190,13 @@
                     <p class="review__text-normal"><span class="review__text-bold">Фабула: </span>Компания – арендатор
                       не возвратила помещения из аренды в последний день срока действия договора ввиду несвоевременного
                       освобождения арендуемых помещений. Впоследствии уклонялось от надлежащего возврата помещений,
-                      считая их переданными. Истец спустя нескольких месяцев принял в одностороннем порядке помещения.
-                      По итогам изучения материалов был организован перечень мероприятий по оформлению надлежащего
+                      считая их переданными.По итогам изучения материалов был организован перечень мероприятий по оформлению надлежащего
                       возврата помещений из аренды, подан иск о взыскании задолженности по арендной плате, убытков в
                       виде восстановительного ремонта помещений и расходов по узакониванию перепланировки и процентов за
                       пользование чужими денежными средствами.
                     </p>
                     <p class="review__text-normal"><span class="review__text-bold">Итог: </span>иск Клиента удовлетворён
-                      частично из заявленных 4 714 655,40 руб. взыскано 4 619 253,00 руб.</p>
+                      частично, из заявленных 4 714 655,40 руб. взыскано 4 619 253,00 руб.</p>
                   </div>
                 </div>
               </li>
@@ -454,8 +454,39 @@
     </footer>
   </div>
 
+  <section class="social-menu">
+    <div class="social-menu_state_collapsed social-menu_visibility_visibile">
+      <img id="social-menu-button-open" class="social-menu__button_size_big" src="<%=require('./../../images/social-menu-default-icon.png')%>" alt="Иконка открытия медиа">
+    </div>
+    <div class="social-menu_state_expanded social-menu_visibility_collapsed">
+      <ul class="social-menu__list">
+        <li class="social-menu__list-item">
+          <img id="social-menu-button-telegram" class="social-menu__button_size_small" src="<%=require('./../../images/social-telegram-icon.svg')%>" alt="Иконка телеграм">
+        </li>
+        <li class="social-menu__list-item">
+          <div class="social-menu__list-separator"></div>
+        </li>
+        <li class="social-menu__list-item">
+          <img id="social-menu-button-instagram" class="social-menu__button_size_small" src="<%=require('./../../images/social-instagram-icon.svg')%>" alt="Иконка инстагарм">
+        </li>
+        <li class="social-menu__list-item">
+          <div class="social-menu__list-separator"></div>
+        </li>
+        <li class="social-menu__list-item">
+          <img id="social-menu-button-whatsapp" class="social-menu__button_size_small" src="<%=require('./../../images/social-whatsapp-icon.svg')%>" alt="Иконка вотсап">
+        </li>
+        <li class="social-menu__list-item">
+          <div class="social-menu__list-separator"></div>
+        </li>
+        <li class="social-menu__list-item">
+          <img id="social-menu-button-email" class="social-menu__button_size_small" src="<%=require('./../../images/social-email-icon.svg')%>" alt="Иконка email">
+        </li>
+      </ul>
+    </div>
+  </section>
+
   <div class="hamburger">
-    <a href="#" class="hamburger__logo link">
+    <a href="index.html" class="hamburger__logo link">
       <img src="<%=require('./../../images/akk-logo-small.svg')%>" alt="Логотип">
     </a>
     <button class="hamburger__close-button link"></button>
@@ -467,10 +498,10 @@
         <a href="company.html" class="hamburger__link link">О компании</a>
       </li>
       <li class="hamburger__links-list-item">
-        <a href="services.html" class="hamburger__link link">Услуги</a>
+        <a href="services.html" class="hamburger__link link">Услуги / цены</a>
       </li>
       <li class="hamburger__links-list-item">
-        <a href="reviews.html" class="hamburger__link link header__page-link_active">Отзывы</a>
+        <a href="reviews.html" class="hamburger__link link header__page-link_active">Практика / Отзывы</a>
       </li>
       <li class="hamburger__links-list-item">
         <a href="contacts.html" class="hamburger__link link">Контакты</a>

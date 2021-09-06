@@ -74,6 +74,7 @@ const socialButtonInstagram = document.querySelector('#social-menu-button-instag
 const socialButtonWhatsapp = document.querySelector('#social-menu-button-whatsapp');
 const socialCollapsedMenu = document.querySelector('.social-menu_state_collapsed');
 const socialExpandedMenu = document.querySelector('.social-menu_state_expanded');
+const socialButtonEmail = document.querySelector('#social-menu-button-email');
 
 socialButtonOpen.addEventListener('click', (evt) => {
   expandSocialMenu();
@@ -90,6 +91,10 @@ socialButtonInstagram.addEventListener('click', (evt) => {
 })
 
 socialButtonWhatsapp.addEventListener('click', (evt) => {
-  open('https://wa.me/74957730679');
+  open('https://wa.me/79099842900');
   collapseSocialMenu();
+})
+
+socialButtonEmail.addEventListener('click', (evt) => {
+  window.open('mailto:info@akk-group.ru?subject=Вопрос от клиента');
 })

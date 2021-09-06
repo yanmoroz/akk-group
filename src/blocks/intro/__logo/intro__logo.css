@@ -1,6 +1,7 @@
 .intro__logo {
   background-image: url('../../../images/akk-logo-big.svg');
   background-size: contain;
+  background-repeat: no-repeat;
   width: 562px;
   height: 165px;
 }
