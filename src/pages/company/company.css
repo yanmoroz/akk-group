@@ -5,6 +5,7 @@
 @import url('../../blocks/container/container.css');
 @import url('../../blocks/container/_hidden/container_hidden.css');
 
+@import url('../../blocks/logo/logo.css');
 @import url('../../blocks/link/link.css');
 @import url('../../blocks/common-button/common-button.css');
 
